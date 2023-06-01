@@ -1,0 +1,16 @@
+<!-- contact.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Contact</h1>
+<form>
+    <label for="name">Nom:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Adresse e-mail:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+    <input type="submit" value="Envoyer">
+</form>
+{% endblock %}
+# De cette façon, la navigation-bar apparaîtra en haut de chaque page web et permettra aux utilisateurs de naviguer facilement entre les différentes sections du site.
